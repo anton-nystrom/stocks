@@ -1,0 +1,8 @@
+multiplier = 2/(n+1)
+n = number of observations
+
+EMA = Closing price x multiplier + EMA (previous day) x (1-multiplier)
+
+MACD = EMA(12) − EMA(26)
+Signal line = EMA(9) of MACD
+Histrogram = MACD - Signal line
